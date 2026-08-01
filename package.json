@@ -20,18 +20,20 @@
   "author": "rxaimbot3-design",
   "license": "MIT",
   "dependencies": {
+    "@ai-sdk/anthropic": "^0.0.47",
+    "@ai-sdk/openai": "^0.0.47",
+    "ai": "^3.0.0",
     "discord.js": "^14.14.0",
     "dotenv": "^16.3.1",
-    "ai": "^3.0.0",
     "winston": "^3.11.0"
   },
   "devDependencies": {
     "@types/node": "^20.10.0",
-    "typescript": "^5.3.3",
-    "tsx": "^4.7.0",
-    "eslint": "^8.55.0",
     "@typescript-eslint/eslint-plugin": "^6.13.2",
     "@typescript-eslint/parser": "^6.13.2",
-    "prettier": "^3.1.1"
+    "eslint": "^8.55.0",
+    "prettier": "^3.1.1",
+    "tsx": "^4.7.0",
+    "typescript": "^5.3.3"
   }
 }

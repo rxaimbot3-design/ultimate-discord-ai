@@ -29,9 +29,6 @@ export const askCommand = {
 
       logger.info(`User ${interaction.user.tag} asked: ${question.substring(0, 50)}...`);
 
-      // Show typing indicator
-      await interaction.channel?.sendTyping();
-
       // Get AI response
       const response = await aiService.generateResponse(question, {
         system:
